@@ -1,0 +1,26 @@
+{
+  "name": "pandoras-box",
+  "version": "1.0.0",
+  "description": "Pandora's Box is an online e-commerce store where one can purchase novelty food products and have them delivered in custom gift boxes, making it an ideal and economical platform for special occasions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/index.js",
+    "dev": "NODE_ENV=development nodemon ./server/index.js"
+  },
+  "author": "Ryan Miranda",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2"
+  }
+}
